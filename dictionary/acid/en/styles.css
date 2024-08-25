@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.abbreviation {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.letter {
+  font-size: 48px;
+  color: #ec5840;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  color: #333;
+}
+
+.explanation p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.explanation p:first-child strong {
+  color: #ec5840;
+}
+
+.explanation p {
+  margin: 5px 0 15px;
+}
+
+.explanation p:last-child {
+  font-size: 16px;
+  color: #555;
+  margin-top: 0;
+}
